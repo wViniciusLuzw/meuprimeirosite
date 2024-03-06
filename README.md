@@ -1,1 +1,1 @@
-https//wviniciusluzw.github.io/meuprimeirosite
+https//wviniciusluzw.github.io/meuprimeirosite/

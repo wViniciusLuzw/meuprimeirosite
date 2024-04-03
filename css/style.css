@@ -2,3 +2,6 @@ body{
     background-color: blue;
     color: aliceblue;
 }
+body{
+    font-weight: bolder;
+}

@@ -1,7 +1,10 @@
 body{
     background-color: blue;
     color: aliceblue;
-}
-body{
     font-weight: bolder;
+}
+h1{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }

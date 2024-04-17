@@ -31,11 +31,11 @@ ul, li{
     background-color: aqua;
 }
 
-.banner{
-    width: 80%;
-
+.img_banner{
+    width: 99rem;
+    position: relative;
 }
 
-.img_topo{
-    width: 100%;
+.img_logo{
+    width: 10rem;
 }

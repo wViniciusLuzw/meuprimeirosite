@@ -1,5 +1,8 @@
+body{
+    background-color: blueviolet;
+}
 header{
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
     padding: 3%;
 }
 main{

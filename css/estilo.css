@@ -36,7 +36,8 @@ ul, li{
 
 .img_banner{
     width: 99rem;
-    position: relative;
+    position: center;
+
 }
 
 .img_logo{

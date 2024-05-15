@@ -41,9 +41,11 @@ footer{
 
 }
 
-h1, h2{
+h1{
     font-size: 125%;
+    font-family: verdana;
     line-height: 3;
+    text-align: center;
 }
 
 p{

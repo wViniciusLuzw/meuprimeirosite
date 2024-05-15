@@ -1,19 +1,17 @@
+/*Configurações de Separação*/
+
 body, html{
     height: 100%;
     margin: 0px;
 }
 
-.bg{
-    background-image: url("../DOOM1993/DOOM.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /*Faz cobrir toda a area da nossa página*/
-    background-position: center;
-    background-attachment: fixed;
-}
-
 header{
     background-color: #fcbf49;
     padding: 3%;
+}
+
+nav{
+    background-color: cyan;
 }
 
 main{
@@ -29,24 +27,31 @@ footer{
     ;
 }
 
-nav{
-    background-color: cyan;
-}
-
 .logo{
     background-color: aquamarine;
 }
 
+.img_logo{
+    width: 10%;
+}
+
+.img_banner{
+    width: 100%;
+    position: center;
+
+}
+
 h1, h2{
+    font-size: 125%;
     line-height: 3;
 }
 
 p{
-    font-size: 20%;
-    line-height: 1.5;
+    padding: 1.5rem;
 }
 
 ul, li{
+
     line-height: 1.5;
 }
 
@@ -56,17 +61,6 @@ ul, li{
 
 .sc2{
     background-color: #D62828;
-}
-
-
-.img_banner{
-    width: 100%;
-    position: center;
-
-}
-
-.img_logo{
-    width: 10%;
 }
 
 .linha{
@@ -87,6 +81,7 @@ ul, li{
     margin-right: 1%;
 }
 
+/* Configurações da Tabela*/
 
 table{
     /*border-collapse: collapse;*/
@@ -112,11 +107,39 @@ th{
     color: white;/*Cor geral da tabela*/
 }
 
-
-
 tr:hover {background-color: coral;}
 
+/*Configurações de link*/
 
-p{
-    font-size: 1em;
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+  .bg{
+    background-image: url("../DOOM1993/DOOM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*Faz cobrir toda a area da nossa página*/
+    background-position: center;
+    background-attachment: fixed;
 }

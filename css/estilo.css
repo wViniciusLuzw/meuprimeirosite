@@ -60,11 +60,11 @@ ul{
 
 .lista_ul{
     list-style-type: circle;
-    padding: left;
-    margin: 2%;
+    margin-left: 5%;
 }
 
 .sc1{
+    padding: 2.3%;
     background-color: #EAE2B7;
 }
 
@@ -171,4 +171,16 @@ a.menu:hover{
 
 .fund_pre{
     color: white;
+}
+
+.right{
+    margin: 1.5%;
+    width: 30%;
+    float: right;
+}
+
+.left{
+    margin: 2%;
+    width: 20%;
+    float: left;
 }

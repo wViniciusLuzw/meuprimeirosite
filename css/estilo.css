@@ -42,19 +42,26 @@ footer{
 }
 
 h1{
-    font-size: 125%;
-    font-family: verdana;
+    font-size: 150%;
+    font-family:  "Pixelify Sans", sans-serif;
     line-height: 3;
     text-align: center;
 }
 
+
 p{
+    font-family: "Ubuntu", sans-serif;
     padding: 1.5rem;
 }
 
-ul, li{
+ul{
+    font-family: "Ubuntu", sans-serif;
+}
 
-    line-height: 1.5;
+.lista_ul{
+    list-style-type: circle;
+    padding: left;
+    margin: 2%;
 }
 
 .sc1{
@@ -113,35 +120,55 @@ tr:hover {background-color: coral;}
 
 /*Configurações de link*/
 
+
 a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
+    color: white;
+}
   
-  a:visited {
+/*a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
-  }
+}*/
   
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+a:hover {
+    color: black;
+    background-color: white;
+}
   
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+a:active {
+    color: white;
+}
 
 
-  .bg{
+.bg{
     background-image: url("../DOOM1993/DOOM.jpg");
     background-repeat: no-repeat;
     background-size: cover; /*Faz cobrir toda a area da nossa página*/
     background-position: center;
     background-attachment: fixed;
+}
+
+a.menu:link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.menu:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fund_pre{
+    color: white;
 }

@@ -52,6 +52,7 @@ h1{
 p{
     font-family: "Ubuntu", sans-serif;
     padding: 1.5rem;
+    margin: 1%;
 }
 
 ul{
@@ -69,6 +70,7 @@ ul{
 }
 
 .sc2{
+
     background-color: #D62828;
 }
 
@@ -173,14 +175,28 @@ a.menu:hover{
     color: white;
 }
 
-.right{
+.right{ /*Imagem a direita do texto*/
     margin: 1.5%;
-    width: 30%;
+    width: 35%;
     float: right;
+    margin-top: 0.0001%;
 }
 
 .left{
     margin: 2%;
     width: 20%;
     float: left;
+    margin-top: 0.0001%;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.sc1 h1{
+    line-height: 1;
+  }
+
+.sc1 h1{
+    line-height: 2;
 }
